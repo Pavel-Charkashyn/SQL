@@ -1,0 +1,8 @@
+Задание 13.
+
+Найдите среднюю скорость ПК, выпущенных производителем A.
+
+SELECT AVG (speed) 
+FROM Product P JOIN PC L 
+ON P.model=L.model 
+WHERE maker= 'A'
