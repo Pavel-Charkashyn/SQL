@@ -1,0 +1,7 @@
+Задание 5.
+
+Найдите номер модели, скорость и размер жесткого диска ПК, имеющих 12x или 24x CD и цену менее 600 дол.
+
+SELECT PC.model, PC.speed, PC.hd
+FROM PC
+WHERE PC.price<600 and PC.cd IN('12x','24x')
