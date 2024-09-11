@@ -1,0 +1,7 @@
+Çàäàíèå 10.
+
+Íàéäèòå ìîäåëè ïðèíòåðîâ, èìåþùèõ ñàìóþ âûñîêóþ öåíó. Âûâåñòè: model, price.
+
+SELECT model, price
+FROM Printer
+WHERE price=(SELECT MAX(price) FROM Printer)
