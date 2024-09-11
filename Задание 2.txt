@@ -1,9 +1,0 @@
-Задание 2.
-
-Найдите производителей принтеров. Вывести: maker.
-
-SELECT maker
-FROM Product
-WHERE type='printer'
-GROUP BY maker
-

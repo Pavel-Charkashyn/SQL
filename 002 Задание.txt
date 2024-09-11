@@ -1,0 +1,9 @@
+Çàäàíèå 2.
+
+Íàéäèòå ïðîèçâîäèòåëåé ïðèíòåðîâ. Âûâåñòè: maker.
+
+SELECT maker
+FROM Product
+WHERE type='printer'
+GROUP BY maker
+
