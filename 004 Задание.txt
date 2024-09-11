@@ -1,0 +1,7 @@
+Çŕäŕíčĺ 4.
+
+Íŕéäčňĺ âńĺ çŕďčńč ňŕáëčöű Printer äë˙ öâĺňíűő ďđčíňĺđîâ.
+
+SELECT code,model,color,type,price
+FROM Printer
+WHERE color='y'

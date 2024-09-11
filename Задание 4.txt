@@ -1,7 +1,0 @@
-Задание 4.
-
-Найдите все записи таблицы Printer для цветных принтеров.
-
-SELECT code,model,color,type,price
-FROM Printer
-WHERE color='y'
