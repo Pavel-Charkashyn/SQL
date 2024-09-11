@@ -1,0 +1,9 @@
+Çàäàíèå 20.
+
+Íàéäèòå ïðîèçâîäèòåëåé, âûïóñêàþùèõ ïî ìåíüøåé ìåðå òðè ðàçëè÷íûõ ìîäåëè ÏÊ. Âûâåñòè: Maker, ÷èñëî ìîäåëåé ÏÊ.
+
+SELECT Product.maker, COUNT(model)
+FROM Product
+WHERE type='PC'
+GROUP BY Product.maker
+HAVING COUNT (DISTINCT model)>=3
